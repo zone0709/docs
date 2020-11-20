@@ -35,7 +35,7 @@ So Let's create a file named `catalog.html.twig` in the `modules/foo/views/Prest
 Note that we use `PrestaShopBundle` instead of `@PrestaShop` to be sure we extend the original file.
 
 ```twig
-{% extends 'PrestaShopBundle:Admin/Product/CatalogPage:catalog.html.twig' %}
+{% extends 'PrestaShopBundle:Admin:Product/CatalogPage:catalog.html.twig' %}
 
 {% block product_catalog_filters %}
   Hello world!
